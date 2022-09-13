@@ -966,7 +966,6 @@ comments = ['"Best Vet Clinic in the area, from the front desk check in , to the
             'Had some poor experiences here. Will be driving to SA vet from now on.']
 
 
-
 class Text_Analysis():
 
     def __init__(self):
@@ -1026,6 +1025,7 @@ class Text_Analysis():
         topics_negative_comments = self.get_topics_words(negative_comments)
 
         return topics_positive_comments, topics_negative_comments
+
 
 text_analysis = Text_Analysis()
 
